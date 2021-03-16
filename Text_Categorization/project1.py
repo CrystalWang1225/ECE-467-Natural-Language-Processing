@@ -7,7 +7,7 @@ from nltk.tokenize import word_tokenize
 import matplotlib.pyplot as plt
 from sklearn.metrics import classification_report
 from nltk.stem import WordNetLemmatizer
-from sklearn import model_selection
+#from sklearn import model_selection
 
 
 def preprocess(train_doc, test_doc):
