@@ -4,7 +4,7 @@
 ##### Yuecen Wang
 
 #### Introduction
-This is the text categorization project using Na&#x00EF;ve Bayes approach based on Bayes' Theorem. In this project, I have read and then stored the test and training file into list in python for tokenizing training and test files. Psuedo-count smoothing is used here. I experienced with POS tagging, lemmatization, case sensitivity, stop lists. For my program, stop lists has made a significant difference. POS tagging actually made my program worse in terms of the overall accuracy. In the end, I chose to use all lower cases, lemmatization, and a stop list for the final system. 
+This is the text categorization project using Na&#x00EF;ve Bayes approach based on Bayes' Theorem. In this project, I have read and then stored the test and training file into list in python for tokenizing training and test files. Laplace smoothing is used here. I experienced with POS tagging, lemmatization, case sensitivity, stop lists. For my program, stop lists has made a significant difference. Stemmer actually made my program worse in terms of the overall accuracy. However, POS tagging has made the binary corpus a much better accuracy. After POS tagging, only nouns and verbs are kept. In the end, I chose to use all lower cases, lemmatization, POS Tagging if its a binary set, and a stop list for the final system. 
 
 #### Usage
 ```
